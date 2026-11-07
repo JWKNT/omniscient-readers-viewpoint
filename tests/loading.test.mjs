@@ -118,6 +118,21 @@ test('a successful empty search restores its normal message after a load failure
   assert.equal(h.parts.h2.textContent, 'No matching paragraphs');
 });
 
+test('a long chapter shows in full, and only search results have a limit', async () => {
+  const h = renderHarness();
+  const lines = Array.from({ length: 600 }, (_, position) => ({ id: `a:${position + 1}`, en: 'Text' }));
+  const full = h.renderCurrentChapter();
+  h.requests.get('a').resolve({ slug: 'a', lines });
+  await full;
+  assert.equal(h.elements.scriptLines.children.length, 600);
+  h.state.query = 'text';
+  const search = h.renderCurrentChapter();
+  h.requests.get('a').resolve({ slug: 'a', lines });
+  await search;
+  assert.equal(h.elements.scriptLines.children.length, 500);
+  assert.equal(h.elements.resultStatus.textContent, 'Showing first 500 of 600');
+});
+
 test('scene dividers show in the full text and not between search results', async () => {
   const h = renderHarness();
   const lines = [{ id: 'a:1', en: 'One' }, { id: 'a:2', div: 1, en: 'Two' }];

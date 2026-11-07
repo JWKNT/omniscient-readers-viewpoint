@@ -186,7 +186,7 @@
     updateChapterControls();
     updateUrl();
     renderCurrentChapter();
-    if (scroll) document.querySelector("#reader-controls").scrollIntoView({ behavior: "smooth", block: "start" });
+    if (scroll) document.querySelector("#reader-controls").scrollIntoView({ behavior: "instant", block: "start" });
   }
 
   function updateEndNavigation() {
@@ -412,7 +412,8 @@
         for (const line of chapter.lines) {
           if (!matches(line, terms)) continue;
           totalMatches += 1;
-          if (shownResults < MAX_RESULTS) {
+          // The limit applies to search results. A chapter always shows in full.
+          if (!terms.length || shownResults < MAX_RESULTS) {
             if (line.div && !terms.length) results.push(makeDivider());
             results.push(makeLineArticle(line, chapterInfo, terms));
             shownResults += 1;
@@ -435,7 +436,7 @@
       if (hashTarget) {
         // The browser sets :target before this element exists, so mark it here.
         hashTarget.classList.add("is-target");
-        hashTarget.scrollIntoView({ block: "center" });
+        hashTarget.scrollIntoView({ behavior: "instant", block: "center" });
       }
     } catch (error) {
       if (token !== state.searchToken) return;
