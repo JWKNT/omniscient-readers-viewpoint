@@ -1,0 +1,45 @@
+.view-switcher[hidden] { display: none; }
+
+.intro p { margin-top: 0; }
+
+/* The novel has many short paragraphs, so the reader mode sets them closer than a script. */
+.english-reader-mode .script-line,
+.english-reader-mode .script-line + .script-line { margin-bottom: 1em; }
+
+.script-line.is-target { background: var(--surface-blue); }
+
+.break-line .language-column { align-items: center; }
+.break-line .line-text { color: var(--muted); text-align: center; }
+
+.scene-divider { padding: .85rem 0; border-top: 1px solid var(--line); color: var(--muted); text-align: center; }
+.scene-divider::before { content: "●"; font: .625rem/1 var(--ui, var(--serif)); }
+.english-reader-mode .scene-divider { margin: .5em 0 1.5em; padding: 0; border-top: 0; }
+
+.line-context { display: block; margin-bottom: .2rem; color: var(--muted); font: var(--text-ui, .875rem)/1.4 var(--ui, var(--serif)); }
+.line-context[hidden] { display: none; }
+
+.language-column.korean .line-text { font-family: "Wrenfold Text", "Apple SD Gothic Neo", "Noto Serif KR", "Malgun Gothic", var(--serif); line-height: 1.7; word-break: keep-all; }
+.english-reader-mode .language-column.korean { display: none; }
+
+.glossary-term-link { cursor: help; }
+.glossary-term-link:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.glossary-popover { font-size: var(--text-body, 1rem); white-space: normal; }
+/* Bridge the gap above the word, so the pointer can reach the source links. */
+.glossary-popover::after { content: ""; position: absolute; top: 100%; right: 0; left: 0; height: 10px; }
+.glossary-popover-description { display: block; overflow: visible; -webkit-line-clamp: unset; }
+.glossary-popover a,
+.note-source { font: var(--text-ui, .875rem)/1.4 var(--ui, var(--serif)); }
+.note-source { color: var(--muted); }
+
+.reader-controls .chapter-picker-button > span:first-child { overflow: hidden; min-width: 0; text-overflow: ellipsis; white-space: nowrap; }
+.chapter-picker { min-width: 0; }
+.chapter-control { min-width: 0; grid-template-columns: auto minmax(0, 1fr) auto; }
+.reader-controls { grid-template-columns: minmax(0, 1.2fr) auto minmax(180px, 1fr) auto; }
+
+@media (max-width: 860px) {
+  .reader-controls { grid-template-columns: minmax(0, 1fr) auto; }
+  .chapter-control { grid-column: 1 / -1; }
+  .scope-control { grid-column: 1 / -1; grid-row: auto; }
+  .search-control { grid-column: 1; grid-row: auto; }
+  .clear-search { grid-column: 2; grid-row: auto; }
+}

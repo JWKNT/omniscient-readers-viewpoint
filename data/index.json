@@ -1,0 +1,928 @@
+{
+ "generatedAt": "2026-10-24",
+ "edition": 42,
+ "chapterCount": 107,
+ "lineCount": 105312,
+ "parts": [
+  {
+   "id": "part-1",
+   "label": "Prologue",
+   "chapters": [
+    "prologue"
+   ]
+  },
+  {
+   "id": "part-2",
+   "label": "Novel",
+   "chapters": [
+    "chapter-001",
+    "chapter-002",
+    "chapter-003",
+    "chapter-004",
+    "chapter-005",
+    "chapter-006",
+    "chapter-007",
+    "chapter-008",
+    "chapter-009",
+    "chapter-010",
+    "chapter-011",
+    "chapter-012",
+    "chapter-013",
+    "chapter-014",
+    "chapter-015",
+    "chapter-016",
+    "chapter-017",
+    "chapter-018",
+    "chapter-019",
+    "chapter-020",
+    "chapter-021",
+    "chapter-022",
+    "chapter-023",
+    "chapter-024",
+    "chapter-025",
+    "chapter-026",
+    "chapter-027",
+    "chapter-028",
+    "chapter-029",
+    "chapter-030",
+    "chapter-031",
+    "chapter-032",
+    "chapter-033",
+    "chapter-034",
+    "chapter-035",
+    "chapter-036",
+    "chapter-037",
+    "chapter-038",
+    "chapter-039",
+    "chapter-040",
+    "chapter-041",
+    "chapter-042",
+    "chapter-043",
+    "chapter-044",
+    "chapter-045",
+    "chapter-046",
+    "chapter-047",
+    "chapter-048",
+    "chapter-049",
+    "chapter-050",
+    "chapter-051",
+    "chapter-052",
+    "chapter-053",
+    "chapter-054",
+    "chapter-055",
+    "chapter-056",
+    "chapter-057",
+    "chapter-058",
+    "chapter-059",
+    "chapter-060",
+    "chapter-061",
+    "chapter-062",
+    "chapter-063",
+    "chapter-064",
+    "chapter-065",
+    "chapter-066",
+    "chapter-067",
+    "chapter-068",
+    "chapter-069",
+    "chapter-070",
+    "chapter-071",
+    "chapter-072",
+    "chapter-073",
+    "chapter-074",
+    "chapter-075",
+    "chapter-076",
+    "chapter-077",
+    "chapter-078",
+    "chapter-079",
+    "chapter-080",
+    "chapter-081",
+    "chapter-082",
+    "chapter-083",
+    "chapter-084",
+    "chapter-085",
+    "chapter-086",
+    "chapter-087",
+    "chapter-088",
+    "chapter-089",
+    "chapter-090",
+    "chapter-091",
+    "chapter-092",
+    "chapter-093",
+    "chapter-094",
+    "chapter-095",
+    "chapter-096",
+    "chapter-097",
+    "chapter-098",
+    "chapter-099"
+   ]
+  },
+  {
+   "id": "part-3",
+   "label": "Author’s note",
+   "chapters": [
+    "author-note-1"
+   ]
+  },
+  {
+   "id": "part-4",
+   "label": "Epilogue",
+   "chapters": [
+    "epilogue-1",
+    "epilogue-2",
+    "epilogue-3",
+    "epilogue-4",
+    "epilogue-5"
+   ]
+  },
+  {
+   "id": "part-5",
+   "label": "Author’s closing note",
+   "chapters": [
+    "author-note-2"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "slug": "prologue",
+   "part": "part-1",
+   "label": "",
+   "title": "Three Ways to Survive in a Ruined World",
+   "lineCount": 88
+  },
+  {
+   "slug": "chapter-001",
+   "part": "part-2",
+   "label": "1",
+   "title": "Paid Service Begins",
+   "lineCount": 874
+  },
+  {
+   "slug": "chapter-002",
+   "part": "part-2",
+   "label": "2",
+   "title": "Protagonist",
+   "lineCount": 905
+  },
+  {
+   "slug": "chapter-003",
+   "part": "part-2",
+   "label": "3",
+   "title": "Contract",
+   "lineCount": 594
+  },
+  {
+   "slug": "chapter-004",
+   "part": "part-2",
+   "label": "4",
+   "title": "Even Hypocrisy Is Good",
+   "lineCount": 795
+  },
+  {
+   "slug": "chapter-005",
+   "part": "part-2",
+   "label": "5",
+   "title": "Dark Keeper",
+   "lineCount": 775
+  },
+  {
+   "slug": "chapter-006",
+   "part": "part-2",
+   "label": "6",
+   "title": "Hour of Judgement",
+   "lineCount": 863
+  },
+  {
+   "slug": "chapter-007",
+   "part": "part-2",
+   "label": "7",
+   "title": "Landlord",
+   "lineCount": 1093
+  },
+  {
+   "slug": "chapter-008",
+   "part": "part-2",
+   "label": "8",
+   "title": "Emergency Defense",
+   "lineCount": 772
+  },
+  {
+   "slug": "chapter-009",
+   "part": "part-2",
+   "label": "9",
+   "title": "Omniscient Sunfish",
+   "lineCount": 1163
+  },
+  {
+   "slug": "chapter-010",
+   "part": "part-2",
+   "label": "10",
+   "title": "Future War",
+   "lineCount": 1304
+  },
+  {
+   "slug": "chapter-011",
+   "part": "part-2",
+   "label": "11",
+   "title": "Night of the Prophets",
+   "lineCount": 1109
+  },
+  {
+   "slug": "chapter-012",
+   "part": "part-2",
+   "label": "12",
+   "title": "First-Person Protagonist’s Viewpoint",
+   "lineCount": 1105
+  },
+  {
+   "slug": "chapter-013",
+   "part": "part-2",
+   "label": "13",
+   "title": "War of Kings",
+   "lineCount": 1123
+  },
+  {
+   "slug": "chapter-014",
+   "part": "part-2",
+   "label": "14",
+   "title": "The Owner of the Throne",
+   "lineCount": 1115
+  },
+  {
+   "slug": "chapter-015",
+   "part": "part-2",
+   "label": "15",
+   "title": "A Kingless World",
+   "lineCount": 1289
+  },
+  {
+   "slug": "chapter-016",
+   "part": "part-2",
+   "label": "16",
+   "title": "The Fifth Scenario",
+   "lineCount": 903
+  },
+  {
+   "slug": "chapter-017",
+   "part": "part-2",
+   "label": "17",
+   "title": "SSS-grade Talent",
+   "lineCount": 1109
+  },
+  {
+   "slug": "chapter-018",
+   "part": "part-2",
+   "label": "18",
+   "title": "The Reader’s Fight",
+   "lineCount": 984
+  },
+  {
+   "slug": "chapter-019",
+   "part": "part-2",
+   "label": "19",
+   "title": "Singularity",
+   "lineCount": 1111
+  },
+  {
+   "slug": "chapter-020",
+   "part": "part-2",
+   "label": "20",
+   "title": "Disaster of Floods",
+   "lineCount": 1053
+  },
+  {
+   "slug": "chapter-021",
+   "part": "part-2",
+   "label": "21",
+   "title": "What Cannot Be Changed",
+   "lineCount": 1158
+  },
+  {
+   "slug": "chapter-022",
+   "part": "part-2",
+   "label": "22",
+   "title": "Three Promises",
+   "lineCount": 1326
+  },
+  {
+   "slug": "chapter-023",
+   "part": "part-2",
+   "label": "23",
+   "title": "The Abandoned World",
+   "lineCount": 1035
+  },
+  {
+   "slug": "chapter-024",
+   "part": "part-2",
+   "label": "24",
+   "title": "Things That Can Be Changed",
+   "lineCount": 1184
+  },
+  {
+   "slug": "chapter-025",
+   "part": "part-2",
+   "label": "25",
+   "title": "Those Who Face the Gods",
+   "lineCount": 804
+  },
+  {
+   "slug": "chapter-026",
+   "part": "part-2",
+   "label": "26",
+   "title": "Scenario Destroyer",
+   "lineCount": 1185
+  },
+  {
+   "slug": "chapter-027",
+   "part": "part-2",
+   "label": "27",
+   "title": "What Cannot Be Read",
+   "lineCount": 814
+  },
+  {
+   "slug": "chapter-028",
+   "part": "part-2",
+   "label": "28",
+   "title": "The Strongest Sacrifice",
+   "lineCount": 1030
+  },
+  {
+   "slug": "chapter-029",
+   "part": "part-2",
+   "label": "29",
+   "title": "The Constellations' Banquet",
+   "lineCount": 942
+  },
+  {
+   "slug": "chapter-030",
+   "part": "part-2",
+   "label": "30",
+   "title": "Dark Castle",
+   "lineCount": 1251
+  },
+  {
+   "slug": "chapter-031",
+   "part": "part-2",
+   "label": "31",
+   "title": "The Grave of Scenarios",
+   "lineCount": 905
+  },
+  {
+   "slug": "chapter-032",
+   "part": "part-2",
+   "label": "32",
+   "title": "Kim Dokja's Love",
+   "lineCount": 1443
+  },
+  {
+   "slug": "chapter-033",
+   "part": "part-2",
+   "label": "33",
+   "title": "Rereading",
+   "lineCount": 1752
+  },
+  {
+   "slug": "chapter-034",
+   "part": "part-2",
+   "label": "34",
+   "title": "What Cannot Be Eaten",
+   "lineCount": 620
+  },
+  {
+   "slug": "chapter-035",
+   "part": "part-2",
+   "label": "35",
+   "title": "The 73rd Demon King",
+   "lineCount": 1312
+  },
+  {
+   "slug": "chapter-036",
+   "part": "part-2",
+   "label": "36",
+   "title": "Story Horizon",
+   "lineCount": 957
+  },
+  {
+   "slug": "chapter-037",
+   "part": "part-2",
+   "label": "37",
+   "title": "Scenery of the Demon Realm",
+   "lineCount": 914
+  },
+  {
+   "slug": "chapter-038",
+   "part": "part-2",
+   "label": "38",
+   "title": "Fake Revolutionary",
+   "lineCount": 997
+  },
+  {
+   "slug": "chapter-039",
+   "part": "part-2",
+   "label": "39",
+   "title": "Unidentifiable Wall",
+   "lineCount": 1084
+  },
+  {
+   "slug": "chapter-040",
+   "part": "part-2",
+   "label": "40",
+   "title": "Hatching",
+   "lineCount": 866
+  },
+  {
+   "slug": "chapter-041",
+   "part": "part-2",
+   "label": "41",
+   "title": "The Real Revolutionary",
+   "lineCount": 1177
+  },
+  {
+   "slug": "chapter-042",
+   "part": "part-2",
+   "label": "42",
+   "title": "Asmodeus",
+   "lineCount": 1054
+  },
+  {
+   "slug": "chapter-043",
+   "part": "part-2",
+   "label": "43",
+   "title": "Breaking the Sky Sword Saint",
+   "lineCount": 1021
+  },
+  {
+   "slug": "chapter-044",
+   "part": "part-2",
+   "label": "44",
+   "title": "Swindler",
+   "lineCount": 686
+  },
+  {
+   "slug": "chapter-045",
+   "part": "part-2",
+   "label": "45",
+   "title": "Gourmet Association",
+   "lineCount": 1238
+  },
+  {
+   "slug": "chapter-046",
+   "part": "part-2",
+   "label": "46",
+   "title": "A New Story",
+   "lineCount": 589
+  },
+  {
+   "slug": "chapter-047",
+   "part": "part-2",
+   "label": "47",
+   "title": "Demon King Selection",
+   "lineCount": 1599
+  },
+  {
+   "slug": "chapter-048",
+   "part": "part-2",
+   "label": "48",
+   "title": "Characters",
+   "lineCount": 783
+  },
+  {
+   "slug": "chapter-049",
+   "part": "part-2",
+   "label": "49",
+   "title": "What You Do Best",
+   "lineCount": 973
+  },
+  {
+   "slug": "chapter-050",
+   "part": "part-2",
+   "label": "50",
+   "title": "The Reader's Story",
+   "lineCount": 1623
+  },
+  {
+   "slug": "chapter-051",
+   "part": "part-2",
+   "label": "51",
+   "title": "Giant Story",
+   "lineCount": 777
+  },
+  {
+   "slug": "chapter-052",
+   "part": "part-2",
+   "label": "52",
+   "title": "■■",
+   "lineCount": 563
+  },
+  {
+   "slug": "chapter-053",
+   "part": "part-2",
+   "label": "53",
+   "title": "Demon King of Salvation",
+   "lineCount": 1130
+  },
+  {
+   "slug": "chapter-054",
+   "part": "part-2",
+   "label": "54",
+   "title": "Demon King Slayer",
+   "lineCount": 1234
+  },
+  {
+   "slug": "chapter-055",
+   "part": "part-2",
+   "label": "55",
+   "title": "Happy Memories",
+   "lineCount": 777
+  },
+  {
+   "slug": "chapter-056",
+   "part": "part-2",
+   "label": "56",
+   "title": "Reader and Writer",
+   "lineCount": 902
+  },
+  {
+   "slug": "chapter-057",
+   "part": "part-2",
+   "label": "57",
+   "title": "Glorious Return",
+   "lineCount": 1002
+  },
+  {
+   "slug": "chapter-058",
+   "part": "part-2",
+   "label": "58",
+   "title": "Context of the Constellations",
+   "lineCount": 895
+  },
+  {
+   "slug": "chapter-059",
+   "part": "part-2",
+   "label": "59",
+   "title": "Kim Dokja’s Company",
+   "lineCount": 1125
+  },
+  {
+   "slug": "chapter-060",
+   "part": "part-2",
+   "label": "60",
+   "title": "Taste of Ruin",
+   "lineCount": 876
+  },
+  {
+   "slug": "chapter-061",
+   "part": "part-2",
+   "label": "61",
+   "title": "Gigantomachia",
+   "lineCount": 1239
+  },
+  {
+   "slug": "chapter-062",
+   "part": "part-2",
+   "label": "62",
+   "title": "God’s Natural Enemy",
+   "lineCount": 1105
+  },
+  {
+   "slug": "chapter-063",
+   "part": "part-2",
+   "label": "63",
+   "title": "End of the Myth",
+   "lineCount": 1145
+  },
+  {
+   "slug": "chapter-064",
+   "part": "part-2",
+   "label": "64",
+   "title": "A Road That Isn’t a Road",
+   "lineCount": 997
+  },
+  {
+   "slug": "chapter-065",
+   "part": "part-2",
+   "label": "65",
+   "title": "Good and Evil",
+   "lineCount": 1166
+  },
+  {
+   "slug": "chapter-066",
+   "part": "part-2",
+   "label": "66",
+   "title": "Beyond Good and Evil",
+   "lineCount": 1026
+  },
+  {
+   "slug": "chapter-067",
+   "part": "part-2",
+   "label": "67",
+   "title": "Forgotten People of the Scenario",
+   "lineCount": 962
+  },
+  {
+   "slug": "chapter-068",
+   "part": "part-2",
+   "label": "68",
+   "title": "Inaudible Words",
+   "lineCount": 850
+  },
+  {
+   "slug": "chapter-069",
+   "part": "part-2",
+   "label": "69",
+   "title": "Archangel Hunting",
+   "lineCount": 782
+  },
+  {
+   "slug": "chapter-070",
+   "part": "part-2",
+   "label": "70",
+   "title": "A Story That Can't Be Shared",
+   "lineCount": 820
+  },
+  {
+   "slug": "chapter-071",
+   "part": "part-2",
+   "label": "71",
+   "title": "50 Years Later",
+   "lineCount": 794
+  },
+  {
+   "slug": "chapter-072",
+   "part": "part-2",
+   "label": "72",
+   "title": "Three Methods",
+   "lineCount": 1068
+  },
+  {
+   "slug": "chapter-073",
+   "part": "part-2",
+   "label": "73",
+   "title": "The Hottest Place in Hell",
+   "lineCount": 756
+  },
+  {
+   "slug": "chapter-074",
+   "part": "part-2",
+   "label": "74",
+   "title": "Great War of Saints and Demons",
+   "lineCount": 1348
+  },
+  {
+   "slug": "chapter-075",
+   "part": "part-2",
+   "label": "75",
+   "title": "A Certain Heart",
+   "lineCount": 961
+  },
+  {
+   "slug": "chapter-076",
+   "part": "part-2",
+   "label": "76",
+   "title": "Book of Revelation",
+   "lineCount": 993
+  },
+  {
+   "slug": "chapter-077",
+   "part": "part-2",
+   "label": "77",
+   "title": "Final Dragon",
+   "lineCount": 955
+  },
+  {
+   "slug": "chapter-078",
+   "part": "part-2",
+   "label": "78",
+   "title": "Climax (轉)",
+   "lineCount": 1187
+  },
+  {
+   "slug": "chapter-079",
+   "part": "part-2",
+   "label": "79",
+   "title": "Secretive Plotter",
+   "lineCount": 1218
+  },
+  {
+   "slug": "chapter-080",
+   "part": "part-2",
+   "label": "80",
+   "title": "Our Strongest Ally",
+   "lineCount": 979
+  },
+  {
+   "slug": "chapter-081",
+   "part": "part-2",
+   "label": "81",
+   "title": "A Dumpling’s Reminiscence",
+   "lineCount": 798
+  },
+  {
+   "slug": "chapter-082",
+   "part": "part-2",
+   "label": "82",
+   "title": "Outer Gods",
+   "lineCount": 1358
+  },
+  {
+   "slug": "chapter-083",
+   "part": "part-2",
+   "label": "83",
+   "title": "Dokja’s Incarnation",
+   "lineCount": 1252
+  },
+  {
+   "slug": "chapter-084",
+   "part": "part-2",
+   "label": "84",
+   "title": "1864",
+   "lineCount": 805
+  },
+  {
+   "slug": "chapter-085",
+   "part": "part-2",
+   "label": "85",
+   "title": "Final Wall",
+   "lineCount": 821
+  },
+  {
+   "slug": "chapter-086",
+   "part": "part-2",
+   "label": "86",
+   "title": "The Square Circle",
+   "lineCount": 815
+  },
+  {
+   "slug": "chapter-087",
+   "part": "part-2",
+   "label": "87",
+   "title": "Heart of Steel",
+   "lineCount": 736
+  },
+  {
+   "slug": "chapter-088",
+   "part": "part-2",
+   "label": "88",
+   "title": "Myth-grade Constellation",
+   "lineCount": 836
+  },
+  {
+   "slug": "chapter-089",
+   "part": "part-2",
+   "label": "89",
+   "title": "Great Apocalypse",
+   "lineCount": 987
+  },
+  {
+   "slug": "chapter-090",
+   "part": "part-2",
+   "label": "90",
+   "title": "One Person",
+   "lineCount": 855
+  },
+  {
+   "slug": "chapter-091",
+   "part": "part-2",
+   "label": "91",
+   "title": "A Single Story",
+   "lineCount": 992
+  },
+  {
+   "slug": "chapter-092",
+   "part": "part-2",
+   "label": "92",
+   "title": "Final Scenario",
+   "lineCount": 887
+  },
+  {
+   "slug": "chapter-093",
+   "part": "part-2",
+   "label": "93",
+   "title": "Omniscient Author's Viewpoint",
+   "lineCount": 1118
+  },
+  {
+   "slug": "chapter-094",
+   "part": "part-2",
+   "label": "94",
+   "title": "Beginning of the End",
+   "lineCount": 774
+  },
+  {
+   "slug": "chapter-095",
+   "part": "part-2",
+   "label": "95",
+   "title": "Opening Heaven (開天)",
+   "lineCount": 709
+  },
+  {
+   "slug": "chapter-096",
+   "part": "part-2",
+   "label": "96",
+   "title": "Demon-like Judge of Fire",
+   "lineCount": 552
+  },
+  {
+   "slug": "chapter-097",
+   "part": "part-2",
+   "label": "97",
+   "title": "The Star That Cannot Be Seen",
+   "lineCount": 759
+  },
+  {
+   "slug": "chapter-098",
+   "part": "part-2",
+   "label": "98",
+   "title": "Have You Protected All That You Were Supposed to Protect?",
+   "lineCount": 702
+  },
+  {
+   "slug": "chapter-099",
+   "part": "part-2",
+   "label": "99",
+   "title": "The Oldest Dream",
+   "lineCount": 1066
+  },
+  {
+   "slug": "author-note-1",
+   "part": "part-3",
+   "label": "",
+   "title": "Author’s note",
+   "lineCount": 11
+  },
+  {
+   "slug": "epilogue-1",
+   "part": "part-4",
+   "label": "Epilogue 1",
+   "title": "The World of Zero",
+   "lineCount": 1646
+  },
+  {
+   "slug": "epilogue-2",
+   "part": "part-4",
+   "label": "Epilogue 2",
+   "title": "Nowhere to Be Found",
+   "lineCount": 1130
+  },
+  {
+   "slug": "epilogue-3",
+   "part": "part-4",
+   "label": "Epilogue 3",
+   "title": "Author's Words",
+   "lineCount": 712
+  },
+  {
+   "slug": "epilogue-4",
+   "part": "part-4",
+   "label": "Epilogue 4",
+   "title": "Omniscient Reader's Viewpoint",
+   "lineCount": 1731
+  },
+  {
+   "slug": "epilogue-5",
+   "part": "part-4",
+   "label": "Epilogue 5",
+   "title": "The Eternity and Epilogue",
+   "lineCount": 1107
+  },
+  {
+   "slug": "author-note-2",
+   "part": "part-5",
+   "label": "",
+   "title": "Author’s closing note",
+   "lineCount": 72
+  }
+ ],
+ "notes": {
+  "dokja-reader": {
+   "term": "Dokja / reader",
+   "note": "Dokja and the Korean word for reader have the same sound. The author’s “dear reader” can also be heard as a polite address to Dokja.",
+   "sources": [
+    {
+     "url": "https://omniscient-readers-viewpoint.fandom.com/wiki/Chapter_1_%28webtoon%29",
+     "label": "ORV wiki · Name and reader wordplay"
+    }
+   ]
+  },
+  "chuunibyou": {
+   "term": "Chuunibyou",
+   "note": "The Korean expression here means “second-year middle-school syndrome.” It refers to adolescent fantasies of hidden powers or exceptional importance. Chuunibyou is the spelling used for the attribute in the ORV wiki.",
+   "sources": [
+    {
+     "url": "https://omniscient-readers-viewpoint.fandom.com/wiki/Kim_Namwoon#Abilities",
+     "label": "ORV wiki · Attribute spelling"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ch%C5%ABniby%C5%8D",
+     "label": "Chūnibyō · Cultural meaning"
+    }
+   ]
+  },
+  "chapter-023-bloodshed-source-wording": {
+   "term": "Balk at bloodshed",
+   "note": "The printed Korean says the kings would balk at bloodshed. The same sentence describes a “savage” mood. The translation preserves this tension. Source: supplied Korean PDF, page 1495.",
+   "sources": [],
+   "sourceLabel": "Supplied Korean PDF, page 1495"
+  }
+ }
+}

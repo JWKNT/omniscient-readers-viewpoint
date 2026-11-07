@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A searchable English reader for Omniscient Reader’s Viewpoint.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Omniscient Reader’s Viewpoint">
+    <meta property="og:description" content="A searchable English reader for the fan translation of the novel by Sing Shong.">
+    <meta property="og:url" content="https://jehlp.net/omniscient-readers-viewpoint/">
+    <meta property="og:site_name" content="jehlp.net">
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://jehlp.net/omniscient-readers-viewpoint/">
+    <title>Omniscient Reader’s Viewpoint · jehlp.net</title>
+    <link rel="icon" href="https://jehlp.net/site-theme/v2/favicons/omniscient-readers-viewpoint.png" type="image/png">
+    <script src="https://jehlp.net/site-theme/v2/theme.js?v=20261009-reading-folio"></script>
+    <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/base.css?v=20261009-reading-folio">
+    <link rel="stylesheet" href="https://jehlp.net/site-theme/v2/reader.css?v=20261107-novel">
+    <link rel="stylesheet" href="assets/styles.css?v=20261107-novel">
+  </head>
+  <body class="english-reader-mode" data-site-tone="plum">
+    <a class="skip-link" href="#script-lines">Skip to text</a>
+
+    <header class="site-header site-header--identity">
+      <div class="site-brand"><img class="site-mark" src="https://jehlp.net/site-theme/v2/marks/omniscient-readers-viewpoint.png" width="32" height="32" alt=""><h1 class="site-title">Omniscient Reader’s Viewpoint</h1></div>
+      <nav aria-label="Site links">
+        <span class="site-utility-pair">
+          <a class="site-home" href="https://jehlp.net/" aria-label="Home — jehlp.net" title="Home — jehlp.net"><span aria-hidden="true">✳</span></a>
+          <button class="theme-toggle" id="theme-toggle" type="button" data-theme-toggle aria-label="Use dark theme" aria-pressed="false">◐</button>
+        </span>
+      </nav>
+    </header>
+
+    <main class="reader-shell">
+      <section class="intro" aria-label="About this reader">
+        <p>A novel by Sing Shong, in a machine-assisted fan translation.</p>
+        <dl class="quick-stats" aria-label="Translation coverage">
+          <div><dt>Chapters</dt><dd id="chapter-count">—</dd></div>
+          <div><dt>Paragraphs</dt><dd id="line-count">—</dd></div>
+          <div><dt>Updated</dt><dd id="updated-at">—</dd></div>
+        </dl>
+      </section>
+
+      <nav class="view-switcher" id="view-switcher" aria-label="Reading mode" hidden>
+        <button id="parallel-mode" type="button" aria-pressed="true">KO / EN</button>
+        <button id="english-mode" type="button" aria-pressed="false">English reader</button>
+      </nav>
+
+      <section class="reader-controls" id="reader-controls" aria-label="Reader controls">
+        <div class="chapter-control">
+          <span class="control-label" id="chapter-label">Chapter</span>
+          <button id="previous-chapter" type="button" aria-label="Previous chapter">←</button>
+          <div class="chapter-picker" id="chapter-picker">
+            <button class="chapter-picker-button" id="chapter-menu-button" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="chapter-menu" aria-labelledby="chapter-label chapter-menu-value">
+              <span id="chapter-menu-value">Loading…</span>
+              <span class="chapter-picker-caret" aria-hidden="true">⌄</span>
+            </button>
+            <div class="chapter-menu" id="chapter-menu" role="dialog" aria-labelledby="chapter-label" hidden>
+              <div class="chapter-menu-options" id="chapter-menu-options" role="listbox" aria-labelledby="chapter-label"></div>
+            </div>
+          </div>
+          <button id="next-chapter" type="button" aria-label="Next chapter">→</button>
+        </div>
+
+        <fieldset class="scope-control">
+          <legend>Search scope</legend>
+          <label><input type="radio" name="search-scope" value="chapter" checked> Chapter</label>
+          <label><input type="radio" name="search-scope" value="all"> All</label>
+        </fieldset>
+
+        <label class="search-control" for="script-search">
+          <span>Search</span>
+          <input id="script-search" type="search" autocomplete="off" placeholder="Search this chapter" spellcheck="false">
+        </label>
+
+        <button class="clear-search" id="clear-search" type="button" hidden>Clear</button>
+      </section>
+
+      <section class="script-heading" aria-live="polite">
+        <div>
+          <h2 id="chapter-title">Loading…</h2>
+          <p id="chapter-progress"></p>
+        </div>
+        <p class="result-status" id="result-status" role="status" hidden>Loading text…</p>
+      </section>
+
+      <section class="script-lines" id="script-lines" aria-label="Novel text"></section>
+
+      <div class="empty-state" id="empty-state" hidden>
+        <h2>No matching paragraphs</h2>
+        <p>Try a broader search or another chapter.</p>
+      </div>
+
+      <nav class="chapter-end-navigation" aria-label="Continue reading">
+        <span id="end-order-label">Continue reading</span>
+        <div class="end-actions" id="end-actions"></div>
+      </nav>
+
+      <a class="back-to-controls" href="#reader-controls">Controls ↑</a>
+    </main>
+
+    <footer>
+      <p>Unofficial, noncommercial fan translation. Please support Sing Shong and buy the official edition of <cite>Omniscient Reader’s Viewpoint</cite>.</p>
+      <p>English text is a draft and may change as translation and review continue.</p>
+    </footer>
+
+    <template id="line-template">
+      <article class="script-line">
+        <a class="line-number"></a>
+        <div class="language-column korean">
+          <span class="language-label">KO</span>
+          <p class="line-text" lang="ko"></p>
+        </div>
+        <div class="language-column english">
+          <span class="language-label">EN</span>
+          <a class="line-context" hidden></a>
+          <p class="line-text" lang="en"></p>
+        </div>
+      </article>
+    </template>
+
+    <script src="assets/app.js?v=20261107-novel"></script>
+  </body>
+</html>

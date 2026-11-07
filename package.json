@@ -1,0 +1,9 @@
+{
+  "name": "omniscient-readers-viewpoint-reader",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:korean": "python3 tools/build_data.py --korean",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
